@@ -3,6 +3,10 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
+
+#WARNING: THE CODE DISPLAYED HAS BEEN ABSTRACED FOR PUBLISHING PURPOSES, TRYING TO ANAYLZE OR USE THIS CODE WILL NOT WORK
+
+
 df = pd.read_csv("../../Desktop/TestData1.csv", header=0, delimiter=',')
 print(df.head())
 df = df.drop(['mandant_id','loyaltycardnumber','min_k_bon_dat','max_k_bon_dat'], axis=1)

@@ -2,6 +2,8 @@
 /****Script Version 0.1 / This is a DRAFT ************************************/
 /*****************************************************************************/
 
+/*WARNING: THE CODE DISPLAYED HAS BEEN ABSTRACED FOR PUBLISHING PURPOSES, TRYING TO ANAYLZE OR USE THIS CODE WILL NOT WORK*/
+
 
 --create a base of loyalty cards
 DROP   TABLE IF     EXISTS bdap_pilot_analysis.prj_cluster_samplecards;
